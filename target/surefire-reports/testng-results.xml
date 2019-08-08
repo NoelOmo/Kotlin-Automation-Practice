@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="32927" started-at="2019-08-08T14:24:06Z" finished-at="2019-08-08T14:24:39Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="32927" started-at="2019-08-08T14:24:06Z" finished-at="2019-08-08T14:24:39Z">
+      <class name="ke.co.noel.LoginFormTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ke.co.noel.LoginFormTest@59a6e353]" name="setup" is-config="true" duration-ms="16233" started-at="2019-08-08T17:24:06Z" finished-at="2019-08-08T17:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginFormIsDisplayed()[pri:1, instance:ke.co.noel.LoginFormTest@59a6e353]" name="verifyLoginFormIsDisplayed" duration-ms="234" started-at="2019-08-08T17:24:22Z" finished-at="2019-08-08T17:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFormIsDisplayed -->
+        <test-method status="PASS" signature="emailFieldValidation()[pri:2, instance:ke.co.noel.LoginFormTest@59a6e353]" name="emailFieldValidation" duration-ms="1566" started-at="2019-08-08T17:24:23Z" finished-at="2019-08-08T17:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldValidation -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:3, instance:ke.co.noel.LoginFormTest@59a6e353]" name="loginWithInvalidCredentials" duration-ms="4604" started-at="2019-08-08T17:24:24Z" finished-at="2019-08-08T17:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="loginWithEmptyCredentials()[pri:4, instance:ke.co.noel.LoginFormTest@59a6e353]" name="loginWithEmptyCredentials" duration-ms="6926" started-at="2019-08-08T17:24:29Z" finished-at="2019-08-08T17:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyCredentials -->
+        <test-method status="PASS" signature="successfulLogin()[pri:5, instance:ke.co.noel.LoginFormTest@59a6e353]" name="successfulLogin" duration-ms="2281" started-at="2019-08-08T17:24:36Z" finished-at="2019-08-08T17:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ke.co.noel.LoginFormTest@59a6e353]" name="tearDown" is-config="true" duration-ms="1067" started-at="2019-08-08T17:24:38Z" finished-at="2019-08-08T17:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ke.co.noel.LoginFormTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

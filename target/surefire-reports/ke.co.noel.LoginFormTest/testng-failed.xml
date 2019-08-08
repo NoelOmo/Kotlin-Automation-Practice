@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ke.co.noel.LoginFormTest]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="ke.co.noel.LoginFormTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ke.co.noel.LoginFormTest">
+        <methods>
+          <include name="emailFieldValidation"/>
+          <include name="loginWithEmptyCredentials"/>
+          <include name="verifyLoginFormIsDisplayed"/>
+          <include name="successfulLogin"/>
+          <include name="setup"/>
+          <include name="loginWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- ke.co.noel.LoginFormTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [ke.co.noel.LoginFormTest] -->

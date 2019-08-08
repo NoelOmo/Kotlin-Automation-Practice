@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ke.co.noel">
+
+    <test name="ke.co.noel" parallel="false">
+        <classes>
+            <class name="ke.co.noel.LoginFormTest">
+                <methods>
+                    <include name="verifyLoginFormIsDisplayed" />
+                    <include name="emailFieldValidation" />
+                    <include name="loginWithInvalidCredentials" />
+                    <include name="loginWithEmptyCredentials" />
+                    <include name="successfulLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
