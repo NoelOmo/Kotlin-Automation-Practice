@@ -12,4 +12,7 @@ object Constants {
 
     var BASE_URL: String = "http://automationpractice.com/index.php?controller=authentication"
     var WEB_DRIVER_LOCATION: String = "drivers/chromedriver.exe"
+
+    var MALE = "MALE"
+    var FEMALE = "FEMALE"
 }

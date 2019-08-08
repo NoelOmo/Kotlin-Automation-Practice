@@ -12,6 +12,10 @@ object WebDriverUtils {
         return WebDriverWait(webDriver, waitTime.toLong()).until(ExpectedConditions.presenceOfElementLocated(selector))
     }
 
+    fun waitForElementToBeClickable(webDriver: WebDriver, selector: By, waitTime: Int ): WebElement {
+       return WebDriverWait(webDriver, waitTime.toLong()).until(ExpectedConditions.elementToBeClickable(selector))
+    }
+
     fun sendKeys(webElement: WebElement, text: String) {
         webElement.clear()
         webElement.sendKeys(text)
