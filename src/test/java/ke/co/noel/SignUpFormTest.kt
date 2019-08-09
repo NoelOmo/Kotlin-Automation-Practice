@@ -110,7 +110,7 @@ class SignUpFormTest {
     fun registerAccount() {
         WebDriverUtils.sendKeys(signupForm.getCustomerFirstName(), "Noel")
         WebDriverUtils.sendKeys(signupForm.getCustomerLastName(), "Omondi")
-        WebDriverUtils.sendKeys(signupForm.getEmailField(), "user4@testuser.com")
+        WebDriverUtils.sendKeys(signupForm.getEmailField(), "user10@testuser.com")
         WebDriverUtils.sendKeys(signupForm.getPasswordField(), "123Hello")
 
         signupForm.setDropDownValue(signupForm.getDropdown("days"), "1")

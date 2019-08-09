@@ -13,6 +13,26 @@
                     <include name="successfulLogin" />
                 </methods>
             </class>
+            <class name="ke.co.noel.SignUpFormTest">
+                <methods>
+                    <include name="openAccountRegistrationForm" />
+                    <include name="userEmailAddressValidation" />
+                    <include name="signupFormSectionOne" />
+                    <include name="submitFormWithoutRequiredFields" />
+                    <include name="registerAccount" />
+                </methods>
+            </class>
+            <class name="ke.co.noel.CartTest">
+                <methods>
+                    <include name="addProductToCart" />
+                    <include name="checkout" />
+                    <include name="loginToContinue" />
+                    <include name="acceptTermsAndConditions" />
+                    <include name="payViaWire" />
+                    <include name="confirmOrder" />
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>
